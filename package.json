@@ -1,0 +1,25 @@
+{
+  "name": "hello-cli",
+  "version": "1.0.0",
+  "description": "Command line Application",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Banele Ngwane",
+  "license": "ISC",
+  "bin": {
+    "hello": "./bin/index.js",
+    "pkce-login": "./bin/pkceLogin.js"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^18.3.1",
+    "axios": "^0.19.0",
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2",
+    "dotenv": "^8.0.0",
+    "open": "^6.3.0",
+    "uuid": "^3.3.2",
+    "yargs": "^13.2.4"
+  }
+}
